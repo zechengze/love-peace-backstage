@@ -1,0 +1,42 @@
+// @import '../Main/reset.css';
+
+.content {
+    // margin-left: 210px;
+    // margin-top: 30px;
+    .shop-content {
+        // color: aqua;
+        .shop-search {
+            // padding-right: 900px;
+            .shop-select {
+                // padding-right: 600px;
+            }
+            .shop-searchbar {
+                // padding-left: 500px;
+                .shop-new {
+                    // margin-left: 83px;
+                }
+            }
+        }
+        .shop-display {
+            th, td {
+                // vertical-align: middle;
+            }
+        }
+    }
+}
+
+// .center{
+//     width: 150px;
+//       margin: 40px auto;
+      
+//     }
+
+
+// .delete-modal {
+//     // background-color: #ffffff;
+//     opacity: .1 !important;
+// }
+.modal-backdrop {
+    // background-color: rgb(0, 0, 0, 0.4);
+    // opacity: .5 !important;
+}

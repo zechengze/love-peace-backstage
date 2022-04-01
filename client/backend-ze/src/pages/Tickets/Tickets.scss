@@ -1,0 +1,17 @@
+// @import '../Main/reset.css';
+
+.content {
+    padding-top: 10px;
+
+    .ticket-content {
+
+        .ticket-search {
+            padding-right: 500px;
+        }
+        .my-table-flex {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
+}
