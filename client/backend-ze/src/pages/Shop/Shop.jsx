@@ -24,7 +24,7 @@ function Shop() {
 
     const [shopSearchbar, setShopSearchbar] = useState("");
 
-    // ---Modal---
+    // -----Modal-----
 
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
@@ -53,18 +53,17 @@ function Shop() {
     }
 
 
-    // ---Modal end---
+    // -----Modal end-----
 
-    // ---Table Display
+    // -----Table Display-----
 
     useEffect(() => {
         handleGetProductList();
     }, [])
 
-    // --- Table Display end
+    // -----Table Display end-----
 
-    // ---New Product---
-
+    // -----New Product-----
 
     const handleGetProductList = () => {
         Axios.get("http://localhost:8088/shop/get").then((response) => {
