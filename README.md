@@ -1,9 +1,5 @@
 # love-peace-backstage
 
-## 專案摘要
-
-lorem
-
 
 
 ## 技術介紹
